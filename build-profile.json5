@@ -1,0 +1,60 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "C:\\Users\\liangjiayin\\.ohos\\config\\default_HarmonyVideoEditor_rsXB_7Cio6XiR1jMZJ3ssUuqBMUQmfzqfbNXsQ91orU=.cer",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001A9CE829DB278AA5371EED22D666F3A11FBC488670CFA3928042B640945CF6A9313E5AD0BBAC39",
+          "profile": "C:\\Users\\liangjiayin\\.ohos\\config\\default_HarmonyVideoEditor_rsXB_7Cio6XiR1jMZJ3ssUuqBMUQmfzqfbNXsQ91orU=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:\\Users\\liangjiayin\\.ohos\\config\\default_HarmonyVideoEditor_rsXB_7Cio6XiR1jMZJ3ssUuqBMUQmfzqfbNXsQ91orU=.p12",
+          "storePassword": "0000001A3588D7A37162F9CF2E8FE48C6D90F423AA19A1E637A323FEF206886FDAC4E405925D8B6A7034"
+        }
+      }
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "targetSdkVersion": "6.1.0(23)",
+        "compatibleSdkVersion": "6.0.0(20)",
+        "runtimeOS": "HarmonyOS",
+        "buildOption": {
+          "strictMode": {
+            "caseSensitiveCheck": true,
+            "useNormalizedOHMUrl": true
+          }
+        }
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug",
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "lib_editor",
+      "srcPath": "./lib_editor",
+    }
+  ]
+}
