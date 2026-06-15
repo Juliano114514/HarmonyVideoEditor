@@ -1,12 +1,11 @@
 {
-  "name": "lib_editor",
+  "name": "lib_data",
   "version": "1.0.0",
   "description": "Please describe the basic information.",
   "main": "Index.ets",
   "author": "",
   "license": "Apache-2.0",
   "dependencies": {
-    "foundation": "file:../foundation",
-    "lib_data": "file:../lib_data"
+    "foundation": "file:../foundation"
   }
 }

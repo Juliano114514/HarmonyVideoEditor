@@ -55,6 +55,22 @@
     {
       "name": "lib_editor",
       "srcPath": "./lib_editor",
+    },
+    {
+      "name": "lib_data",
+      "srcPath": "./lib_data",
+    },
+    {
+      "name": "foundation",
+      "srcPath": "./foundation",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
     }
   ]
 }
