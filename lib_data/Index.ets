@@ -1,1 +1,23 @@
-export { MainPage } from './src/main/ets/components/MainPage';
+export {
+  MainPage,
+  MediaType,
+  SegmentType,
+  TimeRange,
+  IAssetParams,
+  AbsAsset,
+  VideoAssetParams,
+  AudioAssetParams,
+  ImageAssetParams,
+  VideoAsset,
+  AudioAsset,
+  ImageAsset,
+  ISegmentParams,
+  AbsSegment,
+  MediaSegmentParams,
+  AVSegmentParams,
+  MediaSegment,
+  AVSegment,
+  VideoSegment,
+  AudioSegment,
+  ImageSegment
+} from './src/main/ets/index';
